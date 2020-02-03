@@ -1,0 +1,11 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'signup.css' %}">
+<form action="" method='POST' class="form">
+    {% csrf_token %}
+   <div>
+       <input type="text" name="title" id="title" placeholder="Enter Post title">
+       <input type="text" name="description" id="description" placeholder="Enter Post Description">
+       <input type="submit" value="Submit" class="btn btn-primary sas">
+   </div> 
+</form>
+

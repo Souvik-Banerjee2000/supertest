@@ -1,0 +1,18 @@
+{% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="{%  static 'signup.css' %}">
+<div class="center">
+    <form action='' method='POST'class="form">
+        {% csrf_token %}
+        <input type="text" name="startupname" placeholder="Enter Your Startupname"> <br>
+        <div>
+            <input type="checkbox" name="checks[]" value="Music"  class="text"> <p class="text">Music</p> <br>
+            <input type="checkbox" name="checks[]" value="Art && Craft" class="text"> <p class="text">Art && Craft</p> <br>
+            <input type="checkbox" name="checks[]" value="Sports" class="text"> <p class="text">Sports</p>  <br>
+            <input type="checkbox" name="checks[]" value="Agriculture" class="text"><p class="text">Agriculture</p> <br>
+        </div>
+        <input type="text" name="description" placeholder="Enter Startup Description">
+        <input type="submit" value="Submit"  class="btn btn-primary sas">
+    </form>
+</div>

@@ -1,0 +1,229 @@
+
+body { 
+    /* background: url(bg1.jpg) no-repeat center center fixed;  */
+     background: linear-gradient(89deg, #b44b9f 0%, #04c8de 100%);
+  
+    background-size: cover;
+    /* position:relative; */
+  
+  }
+  input,select
+  {
+  
+    border: 2px solid #33b2f2;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    background: #f1f1f1;
+  
+  }
+  .form
+   {
+  
+  
+  
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+  }
+  
+  .gender
+  {
+      width: 1em;
+  }
+  .sas
+  {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #33b2f2;
+      padding: 1em 2em;
+      border-radius: 50px;
+      display: inline-block;
+      border: none;
+      
+  }
+  .sas:hover
+  {
+      background-color:#4095c6;
+      padding: 1.1em 2.2em;
+      border-radius: 50px;
+      
+  }
+  .caps
+  {
+          text-transform: uppercase;
+  
+  }
+  
+  h1
+  {
+      margin: 1em 0 0.5em 0;
+      color: #343434;
+      font-weight: normal;
+      font-family: 'Fjalla One', sans-serif;   
+      font-size: 4em;
+      line-height: 42px;
+      text-transform: uppercase;
+      text-shadow: 0 2px white, 0 3px #777;
+  }
+  h3
+  {
+      font-family: 'Arvo', serif;
+  
+  }
+
+  body { 
+    /* background: url(bg1.jpg) no-repeat center center fixed;  */
+     background: linear-gradient(89deg, #b44b9f 0%, #04c8de 100%);
+  
+    background-size: cover;
+    /* position:relative; */
+  
+  }
+  input,select
+  {
+  
+    border: 2px solid #33b2f2;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    background: #f1f1f1;
+  
+  }
+  .form
+   {
+  
+  
+  
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+  }
+  
+  .gender
+  {
+      width: 1em;
+  }
+  .sas
+  {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #33b2f2;
+      padding: 1em 2em;
+      border-radius: 50px;
+      display: inline-block;
+      border: none;
+      
+  }
+  .sas:hover
+  {
+      background-color:#4095c6;
+      padding: 1.1em 2.2em;
+      border-radius: 50px;
+      
+  }
+  .caps
+  {
+          text-transform: uppercase;
+  
+  }
+  
+  h1
+  {
+      margin: 1em 0 0.5em 0;
+      color: #343434;
+      font-weight: normal;
+      font-family: 'Fjalla One', sans-serif;   
+      font-size: 4em;
+      line-height: 42px;
+      text-transform: uppercase;
+      text-shadow: 0 2px white, 0 3px #777;
+  }
+  h3
+  {
+      font-family: 'Arvo', serif;
+  
+  }
+
+  body { 
+    /* background: url(bg1.jpg) no-repeat center center fixed;  */
+     background: linear-gradient(89deg, #b44b9f 0%, #04c8de 100%);
+  
+    background-size: cover;
+    /* position:relative; */
+  
+  }
+  input,select
+  {
+  
+    border: 2px solid #33b2f2;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    background: #f1f1f1;
+  
+  }
+  .form
+   {
+  
+  
+  
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+  }
+  
+  .gender
+  {
+      width: 1em;
+  }
+  .sas
+  {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #33b2f2;
+      padding: 1em 2em;
+      border-radius: 50px;
+      display: inline-block;
+      border: none;
+      
+  }
+  .sas:hover
+  {
+      background-color:#4095c6;
+      padding: 1.1em 2.2em;
+      border-radius: 50px;
+      
+  }
+  .caps
+  {
+          text-transform: uppercase;
+  
+  }
+  
+  h1
+  {
+      margin: 1em 0 0.5em 0;
+      color: #343434;
+      font-weight: normal;
+      font-family: 'Fjalla One', sans-serif;   
+      font-size: 4em;
+      line-height: 42px;
+      text-transform: uppercase;
+      text-shadow: 0 2px white, 0 3px #777;
+  }
+  h3
+  {
+      font-family: 'Arvo', serif;
+  
+  }
+      

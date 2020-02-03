@@ -1,0 +1,146 @@
+
+body { 
+  /* background: url(bg2.jpg) no-repeat center center fixed;  */
+   background: linear-gradient(89deg, #e4f598 0%, #81fa49 100%);
+
+  background-size: cover;
+  /* background-repeat: repeat; */
+  
+
+}
+h1{
+
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 5em;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+
+}
+
+h2{
+	font-family: 'Varela Round', sans-serif;
+		font-size: 1.7em;
+
+
+}
+
+.container
+{
+	display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: auto;
+  	grid-column-gap: 1em;	 
+	grid-row-gap: 1em;
+
+}
+
+.grid1
+{
+	grid-column-start: 1;
+  	grid-column-end: 1;
+  	grid-row-start: row 4-start;
+  	grid-row-end: 3;
+	width: cover;
+	border-radius:50px;
+	/*background: url("homegrid1");
+	background-size: 98% 98%;
+	background-repeat: no-repeat;*/		
+	padding: 10px 10px;
+	
+}
+.grid1 :hover
+{
+	box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	
+
+/*	border-radius: 50px;
+*/
+}
+.grid2
+{
+	grid-column-start: 2;
+  	grid-column-end: span 1;
+  	grid-row-start: row 1-start;
+  	grid-row-end: 3;
+	padding: 10px 10px;
+	border-radius:50px;
+
+	/*background: url("homegrid1");
+	background-size: 100% 100%;*/
+	
+	
+}
+.grid2 :hover
+{
+	box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+
+/*	border-radius: 50px;
+*/
+}
+.grid3
+{
+	grid-column-start: 3;
+  	grid-column-end: span 1;
+  	grid-row-start: row 1-start;
+  	grid-row-end: 3;
+  	padding: 10px 10px;
+	border-radius:50px;
+
+	/*background: url("homegrid1");
+	background-size: 100% 100%;*/
+	
+}
+.grid3 :hover
+{
+	box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+
+/*	border-radius: 50px;
+*/
+}
+img
+{
+	 width: 26em;
+	 height: 20em; 
+
+}
+
+
+br 
+{   
+    content: "";
+    margin: 4em;
+    display: block;
+    margin-bottom: -20px; 
+ }
+ 
+ h3{
+
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.7em;
+	margin-top: 30px;
+	
+ }
+ 
+ .sas2
+{
+	color: #fff !important;
+	/* text-transform: uppercase; */
+	text-decoration: none;
+	background:   #ffc32a ;
+	/* padding: 1em 2em; */
+	border-radius: 10px;
+	/* display: inline-block; */
+	border: none;
+	height: 50px;
+	width: 200px;
+	
+}
+.sas2:hover
+{
+	background-color:#19e1f0;
+	
+}

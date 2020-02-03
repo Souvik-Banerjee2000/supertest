@@ -1,0 +1,21 @@
+{% load static %}
+
+<!-- <link rel="stylesheet" href="{% static 'signup.css' %"> -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Arvo|Fjalla+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'signup.css' %}">
+    <title>Document</title>
+
+    {% if user.is_authenticated %}
+    <h1> You are already in{{user.username}} {{user.password}}</h1>
+    
+    {% else %}
+
+        <form action='' method='POST' class="form">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="Enter Your username"> <br>
+            <input type="password" name="password" placeholder="Enter your password"> <br>
+            <input type="submit" value="Submit" class="btn btn-primary sas">
+        </form>
+    {% endif %}

@@ -1,0 +1,8 @@
+{% load static %}
+<link rel="stylesheet" href="{%  static 'style.css' %}">
+{% for group in all_groups %}
+<div class="zone yellow">
+     <a href='details/{{group.id}}'> <h1>{{group.group_name}}</h1> </a>
+    <h2> {{group.description}} </h2>
+</div>
+{% endfor %}

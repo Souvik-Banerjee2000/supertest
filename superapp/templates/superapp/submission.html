@@ -1,0 +1,27 @@
+{% load static %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Arvo|Fjalla+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static 'signup.css' %}">
+
+    <form action = '' method = "POST" class="form">
+    {% csrf_token %}
+    <br> <br>
+
+    <input type="name" name="username" placeholder="Enter Your Username"> <br>
+    <input type="password" name="password" placeholder="Enter Your Password"> <br>
+    <input type="text" name = "contact-number" placeholder="Enter Your Contact Number"> <br>
+    <input type="email" name="email" placeholder="Enter Your Email"> <br>
+    <input type="text" name="role" placeholder="Tell Us What do you do"> <br>
+    <select name="status">
+        <option value="EXPLORER">EXPLORER</option>
+        <option value="STUDENT">STUDENT</option>
+        <option value="MENTOR">MENTOR</option>
+    </select>
+    <input type="submit" value="Submit" class="btn btn-primary sas" >
+    </form>
+
+
+        
+

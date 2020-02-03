@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+	<title>Home</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{% static 'home.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'particle.css' %}">
+
+</head>
+
+<body id="{% static 'particles-js' %}">
+	<div id="{% static 'particles-js' %}">
+
+       
+        <nav class="navbar navbar-dark bg-dark " >
+			<h5 style="color:white;">Home</h5>
+  			<form class="form-inline" action="/search" method="GET" class=" justify-content-end">
+			  	<input type='text' class="form-control mr-sm-2" type="search" placeholder='Enter Keyword' name='search' id='search'aria-label="Search">
+    			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  			</form>
+		</nav>	  
+		<h1 class='font1'> Welcome {{user.user.username}}<h1>
+		<a href="viewallgroups/" class=' btn btn-primary btn-lg sas2'> Your Groups</a> 
+		<a href="searchforagroup" class='btn btn-primary btn-lg sas2'>Join a group</a>
+		<a href="logout" class=' btn btn-primary btn-lg sas2'>Logout</a>
+		{% ifequal user.status 'STUDENT' %}
+		<a href="ideasubmission" class=' btn btn-primary btn-lg sas2'>Put your ideas</a>
+		{% endifequal %}
+		
+		<h2>Click around to navigate</h2>	
+		
+		<br>
+		<div class="container">
+			<div class="grid1">
+			 <a href="./../../static/messenger/index.html">
+				<img class="grid1" src="{% static 'homegrid1' %}" >
+				<h3 class="btn btn-primary btn-lg sas2">Talk to a mentor</h3>
+				</a>
+			</div>
+			<div class="grid2">
+				<a href="">
+				<img class="grid2" src="{% static 'homegrid2.jpg' %}" >
+				<h3 class="btn btn-primary btn-lg sas2">Funding</h3>
+				</a>
+			</div>
+			<div class="grid3">
+				<a href="">
+				<img class="grid3" src="{% static 'homegrid3.jpeg' %}">
+				<h3 class="btn btn-primary btn-lg sas2">Dashboard</h3>
+
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- {% comment %} -->
+	 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+		<script>
+			particlesJS.load("{% static 'particles-js' %}", "{% static 'particles.json' %}",()=>{
+
+				console.log('particle.json loaded...')
+			});
+		</script>
+         <!-- {% endcomment %} -->
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+{% if all_user_startups|length < 1 or all_startups|length < 1 %}
+<p> Your Search Result {{search}} did not match anything
+{% else %}
+{% for startup in all_startups %}
+
+<div class="zone yellow">
+    <h1>{{startup.startup_name}}</h1>
+    <p>{{startup.description}}</p>
+    <p>{{startup.Domains_Covered}}</p>
+    <h4>Company</h4>
+<div>
+{% endfor %}
+
+{% for user_startup in all_user_startups %}
+<div class="zone blue">
+    <h1>{{user_startup.user.username}}</h1>
+    <p>{{user_startup.role}}</p>
+    <p>{{user_startup.contact}}</p> 
+    <h4>Person</h4> <br>
+    <h3> Startup in {{search}} </h3>
+</div>
+
+{% endfor %}
+{% endif %} 

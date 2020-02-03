@@ -1,0 +1,10 @@
+{% if user.is_authenticated %}
+<form action='' method='POST'>
+    {% csrf_token %}
+    <input type="text" name="groupname" placeholder="Enter a group Name">
+    <input type="text" name="description" placeholder="Enter Group Description">
+    <input type="submit" value="Create">
+</form>
+{% else  %}
+<h1>Login First</h1>
+{% endif %}
